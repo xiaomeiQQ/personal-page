@@ -1,5 +1,5 @@
 .container-9{
-    background-image: url(/img_src/test-07.svg);
+    background-image: url(./img_src/test-07.svg);
     background-size: cover;
     height: 300px;
     display: flex;

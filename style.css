@@ -168,7 +168,7 @@
             flex-direction: column;
             justify-content: center;
             align-content: center;
-            background-image: url(/img_src/bg_img_v3.png);
+            background-image: url(./img_src/bg_img_v3.png);
             background-size: cover;
             background-position: center center;
             height: 700px;
