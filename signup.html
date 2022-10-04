@@ -45,8 +45,8 @@
             color: #7E7E7E;
         }
         .signup-login .signup-title a{
-            color: #F5A74B;
             text-decoration: none;
+            color: #F5A74B;
         }
         .signup-login .other-title{
             margin: 20px 0 10px 0;
@@ -80,20 +80,12 @@
             margin-bottom: 10px;
         }
         .account-password input{
-            width: 240px;
+            flex-grow: 1;
+            /* width: 100%; */
+            /* width: 240px; */
             border: 1px solid #fff;
             padding: 10px;
             border-radius: 5px;
-        }
-        .rememberme-forget{
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 10px;
-            align-items: center;
-        }
-        .rememberme-forget a{
-            text-decoration: none;
-            color: #7E7E7E;
         }
         .btn-login{
             display: flex;
@@ -107,7 +99,17 @@
             font-weight: 700;
             cursor: pointer;
         }
-        .btn-login a{
+        .privacy-policy{
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .privacy-policy p{
+            color: #7E7E7E;
+        }
+        .privacy-policy a{
+            text-decoration: none;
+            color: #F5A74B;
         }
     </style>
 </head>
@@ -146,8 +148,8 @@
         <div class="signup-login-wrap">
             <div class="signup-login">
                 <div class="login">
-                    <p class="login-title">登入</p>
-                    <p class="signup-title">還沒有帳號嗎? <a href="/signup.html">馬上註冊</a></p>
+                    <p class="login-title">註冊</p>
+                    <p class="signup-title">已有帳號，<span><a href="/login-signup.html">馬上登入</a></span></p>
                 </div>
                 <p class="other-title">使用以下帳號登入</p>
                 <div class="other-login">
@@ -155,16 +157,19 @@
                     <p><img src="./img_src/facebook.png" alt=""> Google</p>
                     <p><img src="./img_src/apple.png" alt=""> Apple</p>
                 </div>
-                <p class="learnkit-login">或使用LearnKit帳號登入</p>
+                <p class="learnkit-login">或註冊LearnKit帳號</p>
                 <div class="account-password">
-                    <p>帳號: <input type="email" name="email" placeholder="電子信箱" class="form-control"></p>
-                    <p>密碼: <input type="password" name="password" placeholder="密碼" class="form-control"></p>
+                    <input type="email" name="email" placeholder="電子信箱" class="form-control">
+                    <input type="text" name="account" placeholder="設定帳號" class="form-control">
+                    <input type="password" name="password" placeholder="設定密碼" class="form-control">
+                    <input type="password" name="password" placeholder="再次輸入密碼
+                        " class="form-control">
                 </div>
-                <div class="rememberme-forget">
-                    <p><input type="checkbox">記住我</p>
-                    <p class="forget"><a href="#">忘記帳號/密碼</a></p>
+                <button class="btn-login">註冊</button>
+                <div class="privacy-policy">
+                    <p>
+                    註冊後表示您已同意<a href="#">服務條款</a>與<a href="#">隱私權政策</a></p>
                 </div>
-                <button class="btn-login">登入</button>
             </div>
         </div>
     </section>
