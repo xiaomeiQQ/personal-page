@@ -8,6 +8,7 @@
 }
 .container-9 h2{
     color: #333333;
+    font-weight: 700;
 }
 .path {
      display: flex;
@@ -50,7 +51,6 @@
 }
 .course-title h4{
     font-size: 16px;
-    font-weight: normal;
     color: #333;
     margin-bottom: 20px;
     padding-bottom: 10px;

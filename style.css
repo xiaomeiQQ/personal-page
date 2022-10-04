@@ -8,24 +8,19 @@
             unicode-range: U+00-024F;
         } */
         h1{
-            font-size: 28px;
-            font-weight: 700;
+            font-size: 32px;
         }
         h2{
             font-size: 28px;
-            font-weight: 700;
         }
         h3{
             font-size: 24px;
-            font-weight: 700;
         }
         h4{
-            font-size: 18px;
-            font-weight: 700;
+            font-size: 20px;
         }
         p{
             font-size: 14px;
-            font-weight: 400;
         }
         .header{
             display: flex;
@@ -127,6 +122,7 @@
         .learnwhere h1{
             color: #333;
             line-height: 40px;
+            font-weight: 700;
         }
         .learnwhere-item{
             display: flex;
@@ -180,14 +176,27 @@
         }
         .freecourse-title h2{
             margin-bottom: 20px;
+            font-weight: 700;
         }
         .freecourse-title span{
             font-size: 32px;
             margin: 10px;
             color: #B64DE8;
         }
+        .freecourse-slider{
+            display: flex;
+            justify-content: space-between;
+        }
+        .freecourse-slider img:nth-child(1){
+            width: auto;
+            height: 350px;
+        }
+        .freecourse-slider img:nth-child(3){
+            width: auto;
+            height: 350px;
+        }
         .freecourse-slider img{
-            width: 600px;
+            width: 700px;
         }
         .upcoming{
             display: flex;
@@ -204,6 +213,7 @@
         }
         .upcoming-title h2{
             margin-right: 10px;
+            font-weight: 700;
         }
         .upcoming-title ul{
             display: flex;
@@ -223,7 +233,7 @@
         .upcoming .card-wrap{
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
+            /* justify-content: center; */
         }
         .upcoming .card-list{
             width: 268px;
@@ -395,6 +405,7 @@
         }
         .live .live-title h2{
             margin-bottom: 20px;
+            font-weight: 700;
         }
         .live .live-title-small{
             margin: 15px 0;
@@ -545,7 +556,7 @@
         .live-popular-list .live-popular-join-price{
             display: flex;
             justify-content: space-between;
-            /* align-content: start; */
+            align-items: center;
             margin-top: 10px;
         }
         .live-popular-join-price .join{
@@ -579,6 +590,7 @@
         .feedback-title{
             align-self: center;
             margin: 50px 0;
+            font-weight: 700;
         }
         .feedback-list{
             display: flex;
@@ -618,6 +630,7 @@
         .article-title{
             margin-top: 50px;
             margin-bottom: 30px;
+            font-weight: 700;
         }
         .article-wrap{
             display: flex;
