@@ -186,6 +186,7 @@
         .freecourse-slider{
             display: flex;
             justify-content: space-between;
+            width: 100%;
         }
         .freecourse-slider img:nth-child(1){
             width: auto;
