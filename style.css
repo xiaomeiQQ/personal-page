@@ -159,6 +159,11 @@
             color: #CB7EEF;
             display: inline-block;
         }
+        .hashtag a:hover {
+            background-color: #f7e3ff;
+            color: #CB7EEF;
+
+        }
         .freecourse{
             display: flex;
             flex-direction: column;
