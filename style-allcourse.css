@@ -1,7 +1,8 @@
 .container-9{
     background-image: url(./img_src/test-07.svg);
+    background-attachment: fixed;
     background-size: cover;
-    height: 300px;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
